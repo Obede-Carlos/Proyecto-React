@@ -1,5 +1,5 @@
-import { useState } from 'react'
-
+import Card, { CardBody } from "./components/Card";
+import List from "./components/List";
 import './App.css'
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
      *  */
     <div className="container">
       <div className="row">
-        <section className="col-md-6">
+        <section className="col-md-12">
          <Card><CardBody header="hola mundo" title="titulo del compoennte" text="texto del componente" /></Card>
          <List />
        </section>
